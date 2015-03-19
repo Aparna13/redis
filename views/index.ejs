@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  
+
+</html><h1>These are all the students</h1>
+
+<p>
+  <% students.forEach(function(student) {%>
+<p><%= student %> <form action="/remove/<%= student %>/?_method=DELETE" method= "post">
+<input type="submit" value="x">
+  
+</form></p>
+
+   <%  }) %>
+  </ul>
+</p>
+<p>
+
+<h3>Add a student here</h3>
+
+<form action="/create" method="post">
+<label for="name">Name:</label>
+<input type="text" name="name" id="name">
+<input type="submit" value="Add">
+  
+</form>
+</p>
+
+
+</body>

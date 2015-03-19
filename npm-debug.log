@@ -1,0 +1,721 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'express',
+1 verbose cli   'ejs',
+1 verbose cli   'redis',
+1 verbose cli   'body-parser',
+1 verbose cli   'method-override--save' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 warn package.json redisstudentmanagerapp@1.0.0 No description
+5 warn package.json redisstudentmanagerapp@1.0.0 No repository field.
+6 warn package.json redisstudentmanagerapp@1.0.0 No README data
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'express', null ]
+9 verbose cache add name=undefined spec="express" args=["express",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'express',
+10 verbose parsed url   path: 'express',
+10 verbose parsed url   href: 'express' }
+11 verbose cache add [ 'ejs', null ]
+12 verbose cache add name=undefined spec="ejs" args=["ejs",null]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'ejs',
+13 verbose parsed url   path: 'ejs',
+13 verbose parsed url   href: 'ejs' }
+14 verbose cache add [ 'redis', null ]
+15 verbose cache add name=undefined spec="redis" args=["redis",null]
+16 verbose parsed url { protocol: null,
+16 verbose parsed url   slashes: null,
+16 verbose parsed url   auth: null,
+16 verbose parsed url   host: null,
+16 verbose parsed url   port: null,
+16 verbose parsed url   hostname: null,
+16 verbose parsed url   hash: null,
+16 verbose parsed url   search: null,
+16 verbose parsed url   query: null,
+16 verbose parsed url   pathname: 'redis',
+16 verbose parsed url   path: 'redis',
+16 verbose parsed url   href: 'redis' }
+17 verbose cache add [ 'body-parser', null ]
+18 verbose cache add name=undefined spec="body-parser" args=["body-parser",null]
+19 verbose parsed url { protocol: null,
+19 verbose parsed url   slashes: null,
+19 verbose parsed url   auth: null,
+19 verbose parsed url   host: null,
+19 verbose parsed url   port: null,
+19 verbose parsed url   hostname: null,
+19 verbose parsed url   hash: null,
+19 verbose parsed url   search: null,
+19 verbose parsed url   query: null,
+19 verbose parsed url   pathname: 'body-parser',
+19 verbose parsed url   path: 'body-parser',
+19 verbose parsed url   href: 'body-parser' }
+20 verbose cache add [ 'method-override--save', null ]
+21 verbose cache add name=undefined spec="method-override--save" args=["method-override--save",null]
+22 verbose parsed url { protocol: null,
+22 verbose parsed url   slashes: null,
+22 verbose parsed url   auth: null,
+22 verbose parsed url   host: null,
+22 verbose parsed url   port: null,
+22 verbose parsed url   hostname: null,
+22 verbose parsed url   hash: null,
+22 verbose parsed url   search: null,
+22 verbose parsed url   query: null,
+22 verbose parsed url   pathname: 'method-override--save',
+22 verbose parsed url   path: 'method-override--save',
+22 verbose parsed url   href: 'method-override--save' }
+23 silly lockFile f3c62de4-express express
+24 verbose lock express /Users/aparnasainath/.npm/f3c62de4-express.lock
+25 silly lockFile 75eeca8f-ejs ejs
+26 verbose lock ejs /Users/aparnasainath/.npm/75eeca8f-ejs.lock
+27 silly lockFile b840fc02-redis redis
+28 verbose lock redis /Users/aparnasainath/.npm/b840fc02-redis.lock
+29 silly lockFile 14cf125c-body-parser body-parser
+30 verbose lock body-parser /Users/aparnasainath/.npm/14cf125c-body-parser.lock
+31 silly lockFile 20e30b58-method-override-save method-override--save
+32 verbose lock method-override--save /Users/aparnasainath/.npm/20e30b58-method-override-save.lock
+33 silly lockFile b840fc02-redis redis
+34 silly lockFile b840fc02-redis redis
+35 silly lockFile f3c62de4-express express
+36 silly lockFile f3c62de4-express express
+37 silly lockFile 75eeca8f-ejs ejs
+38 silly lockFile 75eeca8f-ejs ejs
+39 verbose addNamed [ 'redis', '' ]
+40 verbose addNamed [ null, '*' ]
+41 silly lockFile fb3bbc27-redis redis@
+42 verbose lock redis@ /Users/aparnasainath/.npm/fb3bbc27-redis.lock
+43 silly lockFile 14cf125c-body-parser body-parser
+44 silly lockFile 14cf125c-body-parser body-parser
+45 verbose addNamed [ 'express', '' ]
+46 verbose addNamed [ null, '*' ]
+47 silly lockFile 64a534c1-express express@
+48 verbose lock express@ /Users/aparnasainath/.npm/64a534c1-express.lock
+49 silly lockFile 20e30b58-method-override-save method-override--save
+50 silly lockFile 20e30b58-method-override-save method-override--save
+51 verbose addNamed [ 'ejs', '' ]
+52 verbose addNamed [ null, '*' ]
+53 silly lockFile bcdf6e5f-ejs ejs@
+54 verbose lock ejs@ /Users/aparnasainath/.npm/bcdf6e5f-ejs.lock
+55 verbose addNamed [ 'body-parser', '' ]
+56 verbose addNamed [ null, '*' ]
+57 silly lockFile 9f665704-body-parser body-parser@
+58 verbose lock body-parser@ /Users/aparnasainath/.npm/9f665704-body-parser.lock
+59 verbose addNamed [ 'method-override--save', '' ]
+60 verbose addNamed [ null, '*' ]
+61 silly lockFile 2c40b70e-method-override-save method-override--save@
+62 verbose lock method-override--save@ /Users/aparnasainath/.npm/2c40b70e-method-override-save.lock
+63 silly addNameRange { name: 'redis', range: '*', hasData: false }
+64 silly addNameRange { name: 'express', range: '*', hasData: false }
+65 silly addNameRange { name: 'ejs', range: '*', hasData: false }
+66 silly addNameRange { name: 'body-parser', range: '*', hasData: false }
+67 silly addNameRange { name: 'method-override--save', range: '*', hasData: false }
+68 verbose request where is /method-override--save
+69 verbose request registry https://registry.npmjs.org/
+70 verbose request id 8604f345337dc289
+71 verbose url raw /method-override--save
+72 verbose url resolving [ 'https://registry.npmjs.org/', './method-override--save' ]
+73 verbose url resolved https://registry.npmjs.org/method-override--save
+74 verbose request where is https://registry.npmjs.org/method-override--save
+75 info trying registry request attempt 1 at 16:16:39
+76 http GET https://registry.npmjs.org/method-override--save
+77 verbose request where is /redis
+78 verbose request registry https://registry.npmjs.org/
+79 verbose url raw /redis
+80 verbose url resolving [ 'https://registry.npmjs.org/', './redis' ]
+81 verbose url resolved https://registry.npmjs.org/redis
+82 verbose request where is https://registry.npmjs.org/redis
+83 info trying registry request attempt 1 at 16:16:39
+84 verbose etag "1783X4NOVZIUJKLZKBOA2Y9BF"
+85 http GET https://registry.npmjs.org/redis
+86 verbose request where is /ejs
+87 verbose request registry https://registry.npmjs.org/
+88 verbose url raw /ejs
+89 verbose url resolving [ 'https://registry.npmjs.org/', './ejs' ]
+90 verbose url resolved https://registry.npmjs.org/ejs
+91 verbose request where is https://registry.npmjs.org/ejs
+92 info trying registry request attempt 1 at 16:16:39
+93 verbose etag "8ZET8O5AIGXDOCVZ7ETEBGNT0"
+94 http GET https://registry.npmjs.org/ejs
+95 verbose request where is /express
+96 verbose request registry https://registry.npmjs.org/
+97 verbose url raw /express
+98 verbose url resolving [ 'https://registry.npmjs.org/', './express' ]
+99 verbose url resolved https://registry.npmjs.org/express
+100 verbose request where is https://registry.npmjs.org/express
+101 info trying registry request attempt 1 at 16:16:39
+102 verbose etag "C1S86UJ6DRXSOTM9TLD4ABQR2"
+103 http GET https://registry.npmjs.org/express
+104 verbose request where is /body-parser
+105 verbose request registry https://registry.npmjs.org/
+106 verbose url raw /body-parser
+107 verbose url resolving [ 'https://registry.npmjs.org/', './body-parser' ]
+108 verbose url resolved https://registry.npmjs.org/body-parser
+109 verbose request where is https://registry.npmjs.org/body-parser
+110 info trying registry request attempt 1 at 16:16:39
+111 verbose etag "68VWGFTSV3B3MUIDALA75PTRD"
+112 http GET https://registry.npmjs.org/body-parser
+113 http 304 https://registry.npmjs.org/express
+114 silly registry.get cb [ 304,
+114 silly registry.get   { date: 'Wed, 18 Mar 2015 23:16:40 GMT',
+114 silly registry.get     server: 'Apache',
+114 silly registry.get     via: '1.1 varnish',
+114 silly registry.get     'last-modified': 'Wed, 18 Mar 2015 23:16:17 GMT',
+114 silly registry.get     'cache-control': 'max-age=60',
+114 silly registry.get     etag: '"C1S86UJ6DRXSOTM9TLD4ABQR2"',
+114 silly registry.get     age: '56',
+114 silly registry.get     'x-served-by': 'cache-atl6220-ATL',
+114 silly registry.get     'x-cache': 'HIT',
+114 silly registry.get     'x-cache-hits': '3',
+114 silly registry.get     'x-timer': 'S1426720600.346241,VS0,VE0',
+114 silly registry.get     vary: 'Accept',
+114 silly registry.get     'content-length': '0',
+114 silly registry.get     'keep-alive': 'timeout=10, max=50',
+114 silly registry.get     connection: 'Keep-Alive' } ]
+115 verbose etag https://registry.npmjs.org/express from cache
+116 http 304 https://registry.npmjs.org/ejs
+117 silly registry.get cb [ 304,
+117 silly registry.get   { date: 'Wed, 18 Mar 2015 23:16:40 GMT',
+117 silly registry.get     server: 'Apache',
+117 silly registry.get     via: '1.1 varnish',
+117 silly registry.get     'last-modified': 'Wed, 18 Mar 2015 23:16:40 GMT',
+117 silly registry.get     'cache-control': 'max-age=60',
+117 silly registry.get     etag: '"8ZET8O5AIGXDOCVZ7ETEBGNT0"',
+117 silly registry.get     age: '35',
+117 silly registry.get     'x-served-by': 'cache-atl6227-ATL',
+117 silly registry.get     'x-cache': 'HIT',
+117 silly registry.get     'x-cache-hits': '1',
+117 silly registry.get     'x-timer': 'S1426720600.345297,VS0,VE1',
+117 silly registry.get     vary: 'Accept',
+117 silly registry.get     'content-length': '0',
+117 silly registry.get     'keep-alive': 'timeout=10, max=50',
+117 silly registry.get     connection: 'Keep-Alive' } ]
+118 verbose etag https://registry.npmjs.org/ejs from cache
+119 http 304 https://registry.npmjs.org/redis
+120 silly registry.get cb [ 304,
+120 silly registry.get   { date: 'Wed, 18 Mar 2015 23:16:40 GMT',
+120 silly registry.get     server: 'Apache',
+120 silly registry.get     via: '1.1 varnish',
+120 silly registry.get     'last-modified': 'Wed, 18 Mar 2015 23:14:22 GMT',
+120 silly registry.get     'cache-control': 'max-age=60',
+120 silly registry.get     etag: '"1783X4NOVZIUJKLZKBOA2Y9BF"',
+120 silly registry.get     age: '57',
+120 silly registry.get     'x-served-by': 'cache-atl6226-ATL',
+120 silly registry.get     'x-cache': 'HIT',
+120 silly registry.get     'x-cache-hits': '2',
+120 silly registry.get     'x-timer': 'S1426720600.347532,VS0,VE0',
+120 silly registry.get     vary: 'Accept',
+120 silly registry.get     'content-length': '0',
+120 silly registry.get     'keep-alive': 'timeout=10, max=50',
+120 silly registry.get     connection: 'Keep-Alive' } ]
+121 verbose etag https://registry.npmjs.org/redis from cache
+122 http 304 https://registry.npmjs.org/body-parser
+123 silly registry.get cb [ 304,
+123 silly registry.get   { date: 'Wed, 18 Mar 2015 23:16:40 GMT',
+123 silly registry.get     server: 'Apache',
+123 silly registry.get     via: '1.1 varnish',
+123 silly registry.get     'last-modified': 'Wed, 18 Mar 2015 23:16:40 GMT',
+123 silly registry.get     'cache-control': 'max-age=60',
+123 silly registry.get     etag: '"68VWGFTSV3B3MUIDALA75PTRD"',
+123 silly registry.get     age: '34',
+123 silly registry.get     'x-served-by': 'cache-atl6224-ATL',
+123 silly registry.get     'x-cache': 'HIT',
+123 silly registry.get     'x-cache-hits': '1',
+123 silly registry.get     'x-timer': 'S1426720600.345954,VS0,VE1',
+123 silly registry.get     vary: 'Accept',
+123 silly registry.get     'content-length': '0',
+123 silly registry.get     'keep-alive': 'timeout=10, max=50',
+123 silly registry.get     connection: 'Keep-Alive' } ]
+124 verbose etag https://registry.npmjs.org/body-parser from cache
+125 silly addNameRange number 2 { name: 'express', range: '*', hasData: true }
+126 silly addNameRange versions [ 'express',
+126 silly addNameRange   [ '0.14.0',
+126 silly addNameRange     '0.14.1',
+126 silly addNameRange     '1.0.0',
+126 silly addNameRange     '1.0.1',
+126 silly addNameRange     '1.0.2',
+126 silly addNameRange     '1.0.3',
+126 silly addNameRange     '1.0.4',
+126 silly addNameRange     '1.0.5',
+126 silly addNameRange     '1.0.6',
+126 silly addNameRange     '1.0.7',
+126 silly addNameRange     '1.0.8',
+126 silly addNameRange     '2.0.0',
+126 silly addNameRange     '2.1.0',
+126 silly addNameRange     '2.1.1',
+126 silly addNameRange     '2.2.0',
+126 silly addNameRange     '2.2.1',
+126 silly addNameRange     '2.2.2',
+126 silly addNameRange     '2.3.0',
+126 silly addNameRange     '2.3.1',
+126 silly addNameRange     '2.3.2',
+126 silly addNameRange     '2.3.3',
+126 silly addNameRange     '2.3.4',
+126 silly addNameRange     '2.3.5',
+126 silly addNameRange     '2.3.6',
+126 silly addNameRange     '2.3.7',
+126 silly addNameRange     '2.3.8',
+126 silly addNameRange     '2.3.9',
+126 silly addNameRange     '2.3.10',
+126 silly addNameRange     '2.3.11',
+126 silly addNameRange     '2.3.12',
+126 silly addNameRange     '2.4.0',
+126 silly addNameRange     '2.4.1',
+126 silly addNameRange     '2.4.2',
+126 silly addNameRange     '2.4.3',
+126 silly addNameRange     '2.4.4',
+126 silly addNameRange     '2.4.5',
+126 silly addNameRange     '2.4.6',
+126 silly addNameRange     '2.4.7',
+126 silly addNameRange     '2.5.0',
+126 silly addNameRange     '2.5.1',
+126 silly addNameRange     '2.5.2',
+126 silly addNameRange     '2.5.3',
+126 silly addNameRange     '2.5.4',
+126 silly addNameRange     '2.5.5',
+126 silly addNameRange     '2.5.6',
+126 silly addNameRange     '2.5.7',
+126 silly addNameRange     '2.5.8',
+126 silly addNameRange     '2.5.9',
+126 silly addNameRange     '2.5.10',
+126 silly addNameRange     '2.5.11',
+126 silly addNameRange     '3.0.0',
+126 silly addNameRange     '3.0.1',
+126 silly addNameRange     '3.0.2',
+126 silly addNameRange     '3.0.3',
+126 silly addNameRange     '3.0.4',
+126 silly addNameRange     '3.0.5',
+126 silly addNameRange     '3.0.6',
+126 silly addNameRange     '3.1.0',
+126 silly addNameRange     '3.1.1',
+126 silly addNameRange     '3.1.2',
+126 silly addNameRange     '3.2.0',
+126 silly addNameRange     '3.2.1',
+126 silly addNameRange     '3.2.2',
+126 silly addNameRange     '3.2.3',
+126 silly addNameRange     '3.2.4',
+126 silly addNameRange     '3.2.5',
+126 silly addNameRange     '3.2.6',
+126 silly addNameRange     '3.3.0',
+126 silly addNameRange     '3.3.1',
+126 silly addNameRange     '3.3.2',
+126 silly addNameRange     '3.3.3',
+126 silly addNameRange     '3.3.4',
+126 silly addNameRange     '3.3.5',
+126 silly addNameRange     '3.3.6',
+126 silly addNameRange     '1.0.0-beta',
+126 silly addNameRange     '1.0.0-beta2',
+126 silly addNameRange     '1.0.0-rc',
+126 silly addNameRange     '1.0.0-rc2',
+126 silly addNameRange     '1.0.0-rc3',
+126 silly addNameRange     '1.0.0-rc4',
+126 silly addNameRange     '2.0.0-beta',
+126 silly addNameRange     '2.0.0-beta2',
+126 silly addNameRange     '2.0.0-beta3',
+126 silly addNameRange     '2.0.0-rc',
+126 silly addNameRange     '2.0.0-rc2',
+126 silly addNameRange     '2.0.0-rc3',
+126 silly addNameRange     '3.0.0-alpha1',
+126 silly addNameRange     '3.0.0-alpha2',
+126 silly addNameRange     '3.0.0-alpha3',
+126 silly addNameRange     '3.0.0-alpha4',
+126 silly addNameRange     '3.0.0-alpha5',
+126 silly addNameRange     '3.0.0-beta1',
+126 silly addNameRange     '3.0.0-beta2',
+126 silly addNameRange     '3.0.0-beta3',
+126 silly addNameRange     '3.0.0-beta4',
+126 silly addNameRange     '3.0.0-beta6',
+126 silly addNameRange     '3.0.0-beta7',
+126 silly addNameRange     '3.0.0-rc1',
+126 silly addNameRange     '3.0.0-rc2',
+126 silly addNameRange     '3.0.0-rc3',
+126 silly addNameRange     '3.0.0-rc4',
+126 silly addNameRange     '3.0.0-rc5',
+126 silly addNameRange     '3.3.7',
+126 silly addNameRange     '3.3.8',
+126 silly addNameRange     '3.4.0',
+126 silly addNameRange     '3.4.1',
+126 silly addNameRange     '3.4.2',
+126 silly addNameRange     '3.4.3',
+126 silly addNameRange     '3.4.4',
+126 silly addNameRange     '3.4.5',
+126 silly addNameRange     '3.4.6',
+126 silly addNameRange     '3.4.7',
+126 silly addNameRange     '3.4.8',
+126 silly addNameRange     '4.0.0-rc1',
+126 silly addNameRange     '4.0.0-rc2',
+126 silly addNameRange     '3.5.0',
+126 silly addNameRange     '4.0.0-rc3',
+126 silly addNameRange     '4.0.0-rc4',
+126 silly addNameRange     '3.5.1',
+126 silly addNameRange     '4.0.0',
+126 silly addNameRange     '3.5.2',
+126 silly addNameRange     '4.1.0',
+126 silly addNameRange     '4.1.1',
+126 silly addNameRange     '3.5.3',
+126 silly addNameRange     '4.1.2',
+126 silly addNameRange     '3.6.0',
+126 silly addNameRange     '4.2.0',
+126 silly addNameRange     '3.7.0',
+126 silly addNameRange     '3.8.0',
+126 silly addNameRange     '4.3.0',
+126 silly addNameRange     '4.3.1',
+126 silly addNameRange     '3.8.1',
+126 silly addNameRange     '4.3.2',
+126 silly addNameRange     '3.9.0',
+126 silly addNameRange     '4.4.0',
+126 silly addNameRange     '4.4.1',
+126 silly addNameRange     '3.10.0',
+126 silly addNameRange     '3.10.1',
+126 silly addNameRange     '3.10.2',
+126 silly addNameRange     '3.10.3',
+126 silly addNameRange     '3.10.4',
+126 silly addNameRange     '4.4.2',
+126 silly addNameRange     '3.10.5',
+126 silly addNameRange     '4.4.3',
+126 silly addNameRange     '3.11.0',
+126 silly addNameRange     '4.4.4',
+126 silly addNameRange     '3.12.0',
+126 silly addNameRange     '3.12.1',
+126 silly addNameRange     '4.4.5',
+126 silly addNameRange     '3.13.0',
+126 silly addNameRange     '4.5.0',
+126 silly addNameRange     '4.5.1',
+126 silly addNameRange     '3.14.0',
+126 silly addNameRange     '4.6.0',
+126 silly addNameRange     '4.6.1',
+126 silly addNameRange     '3.15.0',
+126 silly addNameRange     '4.7.0',
+126 silly addNameRange     '3.15.1',
+126 silly addNameRange     '4.7.1',
+126 silly addNameRange     '3.15.2',
+126 silly addNameRange     '4.7.2',
+126 silly addNameRange     '4.7.3',
+126 silly addNameRange     '3.15.3',
+126 silly addNameRange     '4.7.4',
+126 silly addNameRange     '3.16.0',
+126 silly addNameRange     '4.8.0',
+126 silly addNameRange     '3.16.1',
+126 silly addNameRange     '4.8.1',
+126 silly addNameRange     '3.16.2',
+126 silly addNameRange     '4.8.2',
+126 silly addNameRange     '3.16.3',
+126 silly addNameRange     '3.16.4',
+126 silly addNameRange     '4.8.3',
+126 silly addNameRange     '3.16.5',
+126 silly addNameRange     '3.16.6',
+126 silly addNameRange     '4.8.4',
+126 silly addNameRange     '3.16.7',
+126 silly addNameRange     '4.8.5',
+126 silly addNameRange     '3.16.8',
+126 silly addNameRange     '4.8.6',
+126 silly addNameRange     '3.16.9',
+126 silly addNameRange     '4.8.7',
+126 silly addNameRange     '3.16.10',
+126 silly addNameRange     '4.8.8',
+126 silly addNameRange     '3.17.0',
+126 silly addNameRange     '3.17.1',
+126 silly addNameRange     '4.9.0',
+126 silly addNameRange     '3.17.2',
+126 silly addNameRange     '4.9.1',
+126 silly addNameRange     '4.9.2',
+126 silly addNameRange     '3.17.3',
+126 silly addNameRange     '4.9.3',
+126 silly addNameRange     '3.17.4',
+126 silly addNameRange     '4.9.4',
+126 silly addNameRange     '3.17.5',
+126 silly addNameRange     '4.9.5',
+126 silly addNameRange     '3.17.6',
+126 silly addNameRange     '3.17.7',
+126 silly addNameRange     '4.9.6',
+126 silly addNameRange     '4.9.7',
+126 silly addNameRange     '3.17.8',
+126 silly addNameRange     '4.9.8',
+126 silly addNameRange     '3.18.0',
+126 silly addNameRange     '3.18.1',
+126 silly addNameRange     '4.10.0',
+126 silly addNameRange     '3.18.2',
+126 silly addNameRange     '4.10.1',
+126 silly addNameRange     '5.0.0-alpha.1',
+126 silly addNameRange     '3.18.3',
+126 silly addNameRange     '4.10.2',
+126 silly addNameRange     '3.18.4',
+126 silly addNameRange     '4.10.3',
+126 silly addNameRange     '4.10.4',
+126 silly addNameRange     '4.10.5',
+126 silly addNameRange     '3.18.5',
+126 silly addNameRange     '3.18.6',
+126 silly addNameRange     '4.10.6',
+126 silly addNameRange     '4.10.7',
+126 silly addNameRange     '3.19.0',
+126 silly addNameRange     '4.10.8',
+126 silly addNameRange     '4.11.0',
+126 silly addNameRange     '3.19.1',
+126 silly addNameRange     '4.11.1',
+126 silly addNameRange     '3.19.2',
+126 silly addNameRange     '4.11.2',
+126 silly addNameRange     '3.20.0',
+126 silly addNameRange     '4.12.0',
+126 silly addNameRange     '3.20.1',
+126 silly addNameRange     '4.12.1',
+126 silly addNameRange     '4.12.2',
+126 silly addNameRange     '3.20.2',
+126 silly addNameRange     '4.12.3' ] ]
+127 verbose addNamed [ 'express', '4.12.3' ]
+128 verbose addNamed [ '4.12.3', '4.12.3' ]
+129 silly lockFile 0b3fc563-express-4-12-3 express@4.12.3
+130 verbose lock express@4.12.3 /Users/aparnasainath/.npm/0b3fc563-express-4-12-3.lock
+131 silly addNameRange number 2 { name: 'redis', range: '*', hasData: true }
+132 silly addNameRange versions [ 'redis',
+132 silly addNameRange   [ '0.0.1',
+132 silly addNameRange     '0.0.2',
+132 silly addNameRange     '0.0.3',
+132 silly addNameRange     '0.0.4',
+132 silly addNameRange     '0.0.7',
+132 silly addNameRange     '0.0.8',
+132 silly addNameRange     '0.1.0',
+132 silly addNameRange     '0.1.1',
+132 silly addNameRange     '0.1.2',
+132 silly addNameRange     '0.2.0',
+132 silly addNameRange     '0.2.1',
+132 silly addNameRange     '0.2.2',
+132 silly addNameRange     '0.2.3',
+132 silly addNameRange     '0.2.4',
+132 silly addNameRange     '0.2.6',
+132 silly addNameRange     '0.3.0',
+132 silly addNameRange     '0.3.1',
+132 silly addNameRange     '0.3.2',
+132 silly addNameRange     '0.3.3',
+132 silly addNameRange     '0.3.4',
+132 silly addNameRange     '0.3.5',
+132 silly addNameRange     '0.3.6',
+132 silly addNameRange     '0.3.7',
+132 silly addNameRange     '0.3.9',
+132 silly addNameRange     '0.4.0',
+132 silly addNameRange     '0.4.1',
+132 silly addNameRange     '0.4.2',
+132 silly addNameRange     '0.5.0',
+132 silly addNameRange     '0.5.1',
+132 silly addNameRange     '0.5.2',
+132 silly addNameRange     '0.5.3',
+132 silly addNameRange     '0.5.4',
+132 silly addNameRange     '0.5.5',
+132 silly addNameRange     '0.5.6',
+132 silly addNameRange     '0.5.7',
+132 silly addNameRange     '0.5.8',
+132 silly addNameRange     '0.5.9',
+132 silly addNameRange     '0.5.10',
+132 silly addNameRange     '0.5.11',
+132 silly addNameRange     '0.6.0',
+132 silly addNameRange     '0.6.1',
+132 silly addNameRange     '0.6.2',
+132 silly addNameRange     '0.6.3',
+132 silly addNameRange     '0.6.4',
+132 silly addNameRange     '0.6.5',
+132 silly addNameRange     '0.6.6',
+132 silly addNameRange     '0.6.7',
+132 silly addNameRange     '0.7.0',
+132 silly addNameRange     '0.7.1',
+132 silly addNameRange     '0.7.2',
+132 silly addNameRange     '0.7.3',
+132 silly addNameRange     '0.8.0',
+132 silly addNameRange     '0.8.1',
+132 silly addNameRange     '0.8.2',
+132 silly addNameRange     '0.8.3',
+132 silly addNameRange     '0.8.4',
+132 silly addNameRange     '0.8.5',
+132 silly addNameRange     '0.8.6',
+132 silly addNameRange     '0.9.0',
+132 silly addNameRange     '0.9.1',
+132 silly addNameRange     '0.9.2',
+132 silly addNameRange     '0.10.0',
+132 silly addNameRange     '0.10.1',
+132 silly addNameRange     '0.10.2',
+132 silly addNameRange     '0.10.3',
+132 silly addNameRange     '0.11.0',
+132 silly addNameRange     '0.12.0',
+132 silly addNameRange     '0.12.1' ] ]
+133 verbose addNamed [ 'redis', '0.12.1' ]
+134 verbose addNamed [ '0.12.1', '0.12.1' ]
+135 silly lockFile 5ec46899-redis-0-12-1 redis@0.12.1
+136 verbose lock redis@0.12.1 /Users/aparnasainath/.npm/5ec46899-redis-0-12-1.lock
+137 silly addNameRange number 2 { name: 'body-parser', range: '*', hasData: true }
+138 silly addNameRange versions [ 'body-parser',
+138 silly addNameRange   [ '1.0.0',
+138 silly addNameRange     '1.0.1',
+138 silly addNameRange     '1.0.2',
+138 silly addNameRange     '1.1.0',
+138 silly addNameRange     '1.1.1',
+138 silly addNameRange     '1.1.2',
+138 silly addNameRange     '1.2.0',
+138 silly addNameRange     '1.2.1',
+138 silly addNameRange     '1.2.2',
+138 silly addNameRange     '1.3.0',
+138 silly addNameRange     '1.3.1',
+138 silly addNameRange     '1.4.0',
+138 silly addNameRange     '1.4.1',
+138 silly addNameRange     '1.4.2',
+138 silly addNameRange     '1.4.3',
+138 silly addNameRange     '1.5.0',
+138 silly addNameRange     '1.5.1',
+138 silly addNameRange     '1.5.2',
+138 silly addNameRange     '1.6.0',
+138 silly addNameRange     '1.6.1',
+138 silly addNameRange     '1.6.2',
+138 silly addNameRange     '1.6.3',
+138 silly addNameRange     '1.6.4',
+138 silly addNameRange     '1.6.5',
+138 silly addNameRange     '1.6.6',
+138 silly addNameRange     '1.6.7',
+138 silly addNameRange     '1.7.0',
+138 silly addNameRange     '1.8.0',
+138 silly addNameRange     '1.8.1',
+138 silly addNameRange     '1.8.2',
+138 silly addNameRange     '1.8.3',
+138 silly addNameRange     '1.8.4',
+138 silly addNameRange     '1.9.0',
+138 silly addNameRange     '1.9.1',
+138 silly addNameRange     '1.9.2',
+138 silly addNameRange     '1.9.3',
+138 silly addNameRange     '1.10.0',
+138 silly addNameRange     '1.10.1',
+138 silly addNameRange     '1.10.2',
+138 silly addNameRange     '1.11.0',
+138 silly addNameRange     '1.12.0',
+138 silly addNameRange     '1.12.1',
+138 silly addNameRange     '1.12.2' ] ]
+139 verbose addNamed [ 'body-parser', '1.12.2' ]
+140 verbose addNamed [ '1.12.2', '1.12.2' ]
+141 silly lockFile 76f09536-body-parser-1-12-2 body-parser@1.12.2
+142 verbose lock body-parser@1.12.2 /Users/aparnasainath/.npm/76f09536-body-parser-1-12-2.lock
+143 silly addNameRange number 2 { name: 'ejs', range: '*', hasData: true }
+144 silly addNameRange versions [ 'ejs',
+144 silly addNameRange   [ '0.0.1',
+144 silly addNameRange     '0.0.2',
+144 silly addNameRange     '0.0.3',
+144 silly addNameRange     '0.0.4',
+144 silly addNameRange     '0.1.0',
+144 silly addNameRange     '0.2.0',
+144 silly addNameRange     '0.2.1',
+144 silly addNameRange     '0.3.0',
+144 silly addNameRange     '0.3.1',
+144 silly addNameRange     '0.4.0',
+144 silly addNameRange     '0.4.1',
+144 silly addNameRange     '0.4.2',
+144 silly addNameRange     '0.4.3',
+144 silly addNameRange     '0.5.0',
+144 silly addNameRange     '0.6.0',
+144 silly addNameRange     '0.6.1',
+144 silly addNameRange     '0.7.0',
+144 silly addNameRange     '0.7.1',
+144 silly addNameRange     '0.7.2',
+144 silly addNameRange     '0.8.0',
+144 silly addNameRange     '0.8.1',
+144 silly addNameRange     '0.8.2',
+144 silly addNameRange     '0.8.3',
+144 silly addNameRange     '0.8.4',
+144 silly addNameRange     '0.8.5',
+144 silly addNameRange     '0.8.6',
+144 silly addNameRange     '0.8.8',
+144 silly addNameRange     '1.0.0',
+144 silly addNameRange     '2.0.2',
+144 silly addNameRange     '2.0.3',
+144 silly addNameRange     '2.0.4',
+144 silly addNameRange     '2.0.5',
+144 silly addNameRange     '2.0.6',
+144 silly addNameRange     '2.0.7',
+144 silly addNameRange     '2.0.8',
+144 silly addNameRange     '2.1.1',
+144 silly addNameRange     '2.1.2',
+144 silly addNameRange     '2.1.3',
+144 silly addNameRange     '2.1.4',
+144 silly addNameRange     '2.2.1',
+144 silly addNameRange     '2.2.2',
+144 silly addNameRange     '2.2.3',
+144 silly addNameRange     '2.2.4',
+144 silly addNameRange     '2.3.1' ] ]
+145 verbose addNamed [ 'ejs', '2.3.1' ]
+146 verbose addNamed [ '2.3.1', '2.3.1' ]
+147 silly lockFile 823d5f08-ejs-2-3-1 ejs@2.3.1
+148 verbose lock ejs@2.3.1 /Users/aparnasainath/.npm/823d5f08-ejs-2-3-1.lock
+149 silly lockFile 0b3fc563-express-4-12-3 express@4.12.3
+150 silly lockFile 0b3fc563-express-4-12-3 express@4.12.3
+151 silly lockFile 64a534c1-express express@
+152 silly lockFile 64a534c1-express express@
+153 silly lockFile 5ec46899-redis-0-12-1 redis@0.12.1
+154 silly lockFile 5ec46899-redis-0-12-1 redis@0.12.1
+155 silly lockFile 76f09536-body-parser-1-12-2 body-parser@1.12.2
+156 silly lockFile 76f09536-body-parser-1-12-2 body-parser@1.12.2
+157 silly lockFile fb3bbc27-redis redis@
+158 silly lockFile fb3bbc27-redis redis@
+159 silly lockFile 9f665704-body-parser body-parser@
+160 silly lockFile 9f665704-body-parser body-parser@
+161 silly lockFile 823d5f08-ejs-2-3-1 ejs@2.3.1
+162 silly lockFile 823d5f08-ejs-2-3-1 ejs@2.3.1
+163 silly lockFile bcdf6e5f-ejs ejs@
+164 silly lockFile bcdf6e5f-ejs ejs@
+165 http 404 https://registry.npmjs.org/method-override--save
+166 verbose headers { date: 'Wed, 18 Mar 2015 23:16:40 GMT',
+166 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+166 verbose headers   'content-type': 'application/json',
+166 verbose headers   'cache-control': 'max-age=0',
+166 verbose headers   'content-length': '51',
+166 verbose headers   'accept-ranges': 'bytes',
+166 verbose headers   via: '1.1 varnish',
+166 verbose headers   age: '0',
+166 verbose headers   'x-served-by': 'cache-atl6226-ATL',
+166 verbose headers   'x-cache': 'MISS',
+166 verbose headers   'x-cache-hits': '0',
+166 verbose headers   'x-timer': 'S1426720600.354117,VS0,VE80',
+166 verbose headers   'keep-alive': 'timeout=10, max=50',
+166 verbose headers   connection: 'Keep-Alive' }
+167 silly registry.get cb [ 404,
+167 silly registry.get   { date: 'Wed, 18 Mar 2015 23:16:40 GMT',
+167 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+167 silly registry.get     'content-type': 'application/json',
+167 silly registry.get     'cache-control': 'max-age=0',
+167 silly registry.get     'content-length': '51',
+167 silly registry.get     'accept-ranges': 'bytes',
+167 silly registry.get     via: '1.1 varnish',
+167 silly registry.get     age: '0',
+167 silly registry.get     'x-served-by': 'cache-atl6226-ATL',
+167 silly registry.get     'x-cache': 'MISS',
+167 silly registry.get     'x-cache-hits': '0',
+167 silly registry.get     'x-timer': 'S1426720600.354117,VS0,VE80',
+167 silly registry.get     'keep-alive': 'timeout=10, max=50',
+167 silly registry.get     connection: 'Keep-Alive' } ]
+168 silly lockFile 2c40b70e-method-override-save method-override--save@
+169 silly lockFile 2c40b70e-method-override-save method-override--save@
+170 error 404 404 Not Found: method-override--save
+170 error 404
+170 error 404 'method-override--save' is not in the npm registry.
+170 error 404 You should bug the author to publish it
+170 error 404 It was specified as a dependency of 'redisstudentmanagerapp'
+170 error 404
+170 error 404 Note that you can also install from a
+170 error 404 tarball, folder, or http url, or git url.
+171 error System Darwin 13.4.0
+172 error command "node" "/usr/local/bin/npm" "install" "express" "ejs" "redis" "body-parser" "method-override--save"
+173 error cwd /Users/aparnasainath/Desktop/WDI Classwork/redisstudentmanagerapp
+174 error node -v v0.10.35
+175 error npm -v 1.4.28
+176 error code E404
+177 verbose exit [ 1, true ]
